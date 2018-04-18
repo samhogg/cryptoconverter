@@ -23,4 +23,6 @@ Obviously there's always plenty of ways of improving an application - here a few
 
 * More graceful handling of errors
 * Inline form validations
-* User initiated reloading of BTC quotes
+* User initiated reloading of BTC
+* Add more tests
+* Add code splitting and investigate getting the bundle size down
