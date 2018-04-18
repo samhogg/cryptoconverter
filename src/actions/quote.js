@@ -5,6 +5,13 @@ import {
   QUOTE_INPUT_UPDATE
 } from "../constants/actionTypes";
 
+/*
+  The bitfinex API doesn't support CORS, so for the purposes of this
+  example we're using a readily available proxy to get around that restriction.
+
+  This clearly has negative security implications, and in production one would
+  want to set up a proxy they control.
+*/
 const CORS_PROXY = `https://cors-anywhere.herokuapp.com`;
 const API_URL = `https://api.bitfinex.com/v1/pubticker/BTCUSD`;
 const URL = `${CORS_PROXY}/${API_URL}`;
