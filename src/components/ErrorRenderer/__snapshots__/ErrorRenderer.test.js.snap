@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders an error 1`] = `
+<div
+  className="styledComponents__ErrorWrapper-bxVaWE iTsRMw"
+>
+  Error Message
+  <button
+    className="styledComponents__RetryButton-eBsaHs iRHKIs"
+    onClick={[Function]}
+  >
+    Retry
+  </button>
+</div>
+`;

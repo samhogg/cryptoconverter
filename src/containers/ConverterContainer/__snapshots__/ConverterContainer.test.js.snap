@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with an error 1`] = `
+<div
+  className="styledComponents__Container-kJQGqy gwKzdI"
+>
+  <div
+    className="styledComponents__ErrorWrapper-bxVaWE iTsRMw"
+  >
+    Fetch Error
+    <button
+      className="styledComponents__RetryButton-eBsaHs iRHKIs"
+      onClick={[Function]}
+    >
+      Retry
+    </button>
+  </div>
+  <section
+    className="styledComponents__BalanceContainer-cIYnGy iIjgYz"
+  >
+    <h2
+      className="styledComponents__BalanceListTitle-bPaUMl hDojKG"
+    >
+      Account Balance
+    </h2>
+    <ul
+      className="styledComponents__BalanceList-bqFABO eHXqVh"
+    >
+      <li
+        className="styledComponents__BalanceItem-fDtCqf gzMZya"
+      >
+        <div
+          className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+        >
+          usd
+        </div>
+        <div
+          className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+        >
+          <span
+            className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+          >
+            $
+          </span>
+          100.00
+        </div>
+      </li>
+      <li
+        className="styledComponents__BalanceItem-fDtCqf gzMZya"
+      >
+        <div
+          className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+        >
+          btc
+        </div>
+        <div
+          className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+        >
+          <span
+            className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+          >
+            ₿
+          </span>
+          100.000000
+        </div>
+      </li>
+    </ul>
+  </section>
+  <form
+    className="styledComponents__TradeContainer-kAVRwM ZpDir"
+  >
+    <h2
+      className="styledComponents__TradeTitle-chyUqE iUFiLO"
+    >
+      Trade
+    </h2>
+    <div
+      className="LoadingIndicator__LoadingContainer-eMCbod fjLIAU"
+    >
+      <div
+        className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+      />
+      <div
+        className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+      />
+      <div
+        className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+      />
+    </div>
+    <input
+      className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="USD"
+      readOnly={false}
+      value=""
+    />
+    <div
+      className="styledComponents__TradeSeparator-faTACV gxVESP"
+    >
+      To
+    </div>
+    <input
+      className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+      disabled={true}
+      onChange={undefined}
+      placeholder="BTC"
+      readOnly={true}
+      value=""
+    />
+    <button
+      className="styledComponents__TradeButton-ilQyaa ezRzaG"
+      disabled={true}
+      onClick={[Function]}
+      type="submit"
+    >
+      Execute Trade
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Renders without errors 1`] = `
+<div
+  className="styledComponents__Container-kJQGqy cbPYLL"
+>
+  <section
+    className="styledComponents__BalanceContainer-cIYnGy iIjgYz"
+  >
+    <h2
+      className="styledComponents__BalanceListTitle-bPaUMl hDojKG"
+    >
+      Account Balance
+    </h2>
+    <ul
+      className="styledComponents__BalanceList-bqFABO eHXqVh"
+    >
+      <li
+        className="styledComponents__BalanceItem-fDtCqf gzMZya"
+      >
+        <div
+          className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+        >
+          usd
+        </div>
+        <div
+          className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+        >
+          <span
+            className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+          >
+            $
+          </span>
+          100.00
+        </div>
+      </li>
+      <li
+        className="styledComponents__BalanceItem-fDtCqf gzMZya"
+      >
+        <div
+          className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+        >
+          btc
+        </div>
+        <div
+          className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+        >
+          <span
+            className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+          >
+            ₿
+          </span>
+          100.000000
+        </div>
+      </li>
+    </ul>
+  </section>
+  <form
+    className="styledComponents__TradeContainer-kAVRwM ZpDir"
+  >
+    <h2
+      className="styledComponents__TradeTitle-chyUqE iUFiLO"
+    >
+      Trade
+    </h2>
+    <div
+      className="LoadingIndicator__LoadingContainer-eMCbod bZALBS"
+    >
+      <div
+        className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+      />
+      <div
+        className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+      />
+      <div
+        className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+      />
+    </div>
+    <input
+      className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="USD"
+      readOnly={false}
+      value=""
+    />
+    <div
+      className="styledComponents__TradeSeparator-faTACV gxVESP"
+    >
+      To
+    </div>
+    <input
+      className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+      disabled={true}
+      onChange={undefined}
+      placeholder="BTC"
+      readOnly={true}
+      value=""
+    />
+    <button
+      className="styledComponents__TradeButton-ilQyaa ezRzaG"
+      disabled={true}
+      onClick={[Function]}
+      type="submit"
+    >
+      Execute Trade
+    </button>
+  </form>
+</div>
+`;

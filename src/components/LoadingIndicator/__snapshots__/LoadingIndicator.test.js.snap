@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with loading=false 1`] = `
+<div
+  className="LoadingIndicator__LoadingContainer-eMCbod fjLIAU"
+>
+  <div
+    className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+  />
+  <div
+    className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+  />
+  <div
+    className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+  />
+</div>
+`;
+
+exports[`Renders with loading=true 1`] = `
+<div
+  className="LoadingIndicator__LoadingContainer-eMCbod bZALBS"
+>
+  <div
+    className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+  />
+  <div
+    className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+  />
+  <div
+    className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+  />
+</div>
+`;

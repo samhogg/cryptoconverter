@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with non zero balances 1`] = `
+<li
+  className="styledComponents__BalanceItem-fDtCqf gzMZya"
+>
+  <div
+    className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+  >
+    usd
+  </div>
+  <div
+    className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+  >
+    <span
+      className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+    >
+      $
+    </span>
+    40,000.00
+  </div>
+</li>
+`;
+
+exports[`Renders with zero balances 1`] = `
+<li
+  className="styledComponents__BalanceItem-fDtCqf gzMZya"
+>
+  <div
+    className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+  >
+    usd
+  </div>
+  <div
+    className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+  >
+    <span
+      className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+    >
+      $
+    </span>
+    0.00
+  </div>
+</li>
+`;

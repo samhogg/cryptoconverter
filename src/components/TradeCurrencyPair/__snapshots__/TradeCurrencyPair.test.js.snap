@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with a non zero balance 1`] = `
+<input
+  className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+  disabled={false}
+  onChange={[Function]}
+  placeholder="USD"
+  readOnly={false}
+  value={1000}
+/>
+`;
+
+exports[`Renders with zero balances 1`] = `
+<input
+  className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+  disabled={false}
+  onChange={[Function]}
+  placeholder="USD"
+  readOnly={false}
+  value=""
+/>
+`;
+
+exports[`Renders without an onChange handler 1`] = `
+<input
+  className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+  disabled={true}
+  onChange={undefined}
+  placeholder="USD"
+  readOnly={true}
+  value={1000}
+/>
+`;

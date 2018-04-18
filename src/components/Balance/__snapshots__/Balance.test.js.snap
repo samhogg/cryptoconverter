@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with non zero balances 1`] = `
+<section
+  className="styledComponents__BalanceContainer-cIYnGy iIjgYz"
+>
+  <h2
+    className="styledComponents__BalanceListTitle-bPaUMl hDojKG"
+  >
+    Account Balance
+  </h2>
+  <ul
+    className="styledComponents__BalanceList-bqFABO eHXqVh"
+  >
+    <li
+      className="styledComponents__BalanceItem-fDtCqf gzMZya"
+    >
+      <div
+        className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+      >
+        usd
+      </div>
+      <div
+        className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+      >
+        <span
+          className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+        >
+          $
+        </span>
+        100.00
+      </div>
+    </li>
+    <li
+      className="styledComponents__BalanceItem-fDtCqf gzMZya"
+    >
+      <div
+        className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+      >
+        btc
+      </div>
+      <div
+        className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+      >
+        <span
+          className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+        >
+          ₿
+        </span>
+        1,000.000000
+      </div>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`Renders with zero balances 1`] = `
+<section
+  className="styledComponents__BalanceContainer-cIYnGy iIjgYz"
+>
+  <h2
+    className="styledComponents__BalanceListTitle-bPaUMl hDojKG"
+  >
+    Account Balance
+  </h2>
+  <ul
+    className="styledComponents__BalanceList-bqFABO eHXqVh"
+  >
+    <li
+      className="styledComponents__BalanceItem-fDtCqf gzMZya"
+    >
+      <div
+        className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+      >
+        usd
+      </div>
+      <div
+        className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+      >
+        <span
+          className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+        >
+          $
+        </span>
+        0.00
+      </div>
+    </li>
+    <li
+      className="styledComponents__BalanceItem-fDtCqf gzMZya"
+    >
+      <div
+        className="styledComponents__BalanceTicker-dDjLel bpTZSY"
+      >
+        btc
+      </div>
+      <div
+        className="styledComponents__BalanceQuantity-kFtsKU jMHtFP"
+      >
+        <span
+          className="styledComponents__BalancePrefix-fCshfk eIVmaR"
+        >
+          ₿
+        </span>
+        0.000000
+      </div>
+    </li>
+  </ul>
+</section>
+`;

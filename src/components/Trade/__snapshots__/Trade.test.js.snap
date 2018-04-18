@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with reasonable defaults 1`] = `
+<form
+  className="styledComponents__TradeContainer-kAVRwM ZpDir"
+>
+  <h2
+    className="styledComponents__TradeTitle-chyUqE iUFiLO"
+  >
+    Trade
+  </h2>
+  <div
+    className="LoadingIndicator__LoadingContainer-eMCbod fjLIAU"
+  >
+    <div
+      className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+    />
+    <div
+      className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+    />
+    <div
+      className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
+    />
+  </div>
+  <input
+    className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+    disabled={false}
+    onChange={[Function]}
+    placeholder="USD"
+    readOnly={false}
+    value={1000}
+  />
+  <div
+    className="styledComponents__TradeSeparator-faTACV gxVESP"
+  >
+    To
+  </div>
+  <input
+    className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
+    disabled={true}
+    onChange={undefined}
+    placeholder="BTC"
+    readOnly={true}
+    value={100}
+  />
+  <button
+    className="styledComponents__TradeButton-ilQyaa ezRzaG"
+    disabled={false}
+    onClick={[Function]}
+    type="submit"
+  >
+    Execute Trade
+  </button>
+</form>
+`;
