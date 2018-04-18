@@ -4,26 +4,25 @@ import {
   QUOTE_SUCCESS,
   QUOTE_INPUT_UPDATE,
   TRADE_EXECUTE
-} from "./constants/actionTypes";
+} from "../constants/actionTypes";
 
-const reducer = (
-  state = {
-    quote: {
-      loading: false,
-      rate: null,
-      error: null
-    },
-    input: {
-      usd: null,
-      btc: null
-    },
-    balances: {
-      usd: 156.12,
-      btc: 0
-    }
+export const initialState = {
+  quote: {
+    loading: false,
+    rate: null,
+    error: null
   },
-  action
-) => {
+  input: {
+    usd: null,
+    btc: null
+  },
+  balances: {
+    usd: 156.12,
+    btc: 0
+  }
+};
+
+const reducer = (state = initialState, action) => {
   switch (action.type) {
     case QUOTE_ERROR:
       return Object.assign({}, state, {
@@ -62,7 +61,7 @@ const reducer = (
       return Object.assign({}, state, {
         input: {
           usd,
-          btc: usd === "" ? null : usd / state.quote.rate
+          btc: usd ? usd / state.quote.rate : null
         }
       });
     case TRADE_EXECUTE:
