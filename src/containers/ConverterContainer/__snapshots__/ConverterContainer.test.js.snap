@@ -87,27 +87,49 @@ exports[`Renders with an error 1`] = `
         className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
       />
     </div>
-    <input
-      className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
-      disabled={false}
-      onChange={[Function]}
-      placeholder="USD"
-      readOnly={false}
-      value=""
-    />
+    <div
+      className="styledComponents__TradeCurrencyPairContainer-euJuRu eFLMYC"
+    >
+      <label
+        className="styledComponents__TradeLabel-izuSoq dTyLVH"
+        htmlFor="currency-input-USD"
+      >
+        USD
+      </label>
+      <input
+        className="styledComponents__TradeInput-eaQxiw kFzhqY"
+        disabled={false}
+        id="currency-input-USD"
+        onChange={[Function]}
+        placeholder="USD"
+        readOnly={false}
+        value=""
+      />
+    </div>
     <div
       className="styledComponents__TradeSeparator-faTACV gxVESP"
     >
       To
     </div>
-    <input
-      className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
-      disabled={true}
-      onChange={undefined}
-      placeholder="BTC"
-      readOnly={true}
-      value=""
-    />
+    <div
+      className="styledComponents__TradeCurrencyPairContainer-euJuRu eFLMYC"
+    >
+      <label
+        className="styledComponents__TradeLabel-izuSoq dTyLVH"
+        htmlFor="currency-input-BTC"
+      >
+        BTC
+      </label>
+      <input
+        className="styledComponents__TradeInput-eaQxiw kFzhqY"
+        disabled={true}
+        id="currency-input-BTC"
+        onChange={undefined}
+        placeholder="BTC"
+        readOnly={true}
+        value=""
+      />
+    </div>
     <button
       className="styledComponents__TradeButton-ilQyaa ezRzaG"
       disabled={true}
@@ -196,27 +218,49 @@ exports[`Renders without errors 1`] = `
         className="LoadingIndicator__LoadingDot-kbVGSy eVeAmw"
       />
     </div>
-    <input
-      className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
-      disabled={false}
-      onChange={[Function]}
-      placeholder="USD"
-      readOnly={false}
-      value=""
-    />
+    <div
+      className="styledComponents__TradeCurrencyPairContainer-euJuRu eFLMYC"
+    >
+      <label
+        className="styledComponents__TradeLabel-izuSoq dTyLVH"
+        htmlFor="currency-input-USD"
+      >
+        USD
+      </label>
+      <input
+        className="styledComponents__TradeInput-eaQxiw kFzhqY"
+        disabled={false}
+        id="currency-input-USD"
+        onChange={[Function]}
+        placeholder="USD"
+        readOnly={false}
+        value=""
+      />
+    </div>
     <div
       className="styledComponents__TradeSeparator-faTACV gxVESP"
     >
       To
     </div>
-    <input
-      className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
-      disabled={true}
-      onChange={undefined}
-      placeholder="BTC"
-      readOnly={true}
-      value=""
-    />
+    <div
+      className="styledComponents__TradeCurrencyPairContainer-euJuRu eFLMYC"
+    >
+      <label
+        className="styledComponents__TradeLabel-izuSoq dTyLVH"
+        htmlFor="currency-input-BTC"
+      >
+        BTC
+      </label>
+      <input
+        className="styledComponents__TradeInput-eaQxiw kFzhqY"
+        disabled={true}
+        id="currency-input-BTC"
+        onChange={undefined}
+        placeholder="BTC"
+        readOnly={true}
+        value=""
+      />
+    </div>
     <button
       className="styledComponents__TradeButton-ilQyaa ezRzaG"
       disabled={true}

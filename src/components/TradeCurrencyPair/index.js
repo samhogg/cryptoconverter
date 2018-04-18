@@ -1,21 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled from "styled-components";
-
-const TradeInput = styled.input`
-  box-sizing: border-box;
-  width: 100%;
-  padding: 0.5rem;
-`;
+import {
+  TradeCurrencyPairContainer,
+  TradeLabel,
+  TradeInput
+} from "./styledComponents";
 
 const TradeCurrencyPair = ({ currency, value, onChange }) => (
-  <TradeInput
-    placeholder={currency}
-    value={value || ""}
-    onChange={onChange}
-    disabled={!onChange}
-    readOnly={!onChange}
-  />
+  <TradeCurrencyPairContainer>
+    <TradeLabel htmlFor={`currency-input-${currency}`}>{currency}</TradeLabel>
+    <TradeInput
+      id={`currency-input-${currency}`}
+      placeholder={currency}
+      value={value || ""}
+      onChange={onChange}
+      disabled={!onChange}
+      readOnly={!onChange}
+    />
+  </TradeCurrencyPairContainer>
 );
 
 TradeCurrencyPair.propTypes = {

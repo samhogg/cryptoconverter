@@ -1,34 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Renders with a non zero balance 1`] = `
-<input
-  className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
-  disabled={false}
-  onChange={[Function]}
-  placeholder="USD"
-  readOnly={false}
-  value={1000}
-/>
+<div
+  className="styledComponents__TradeCurrencyPairContainer-euJuRu eFLMYC"
+>
+  <label
+    className="styledComponents__TradeLabel-izuSoq dTyLVH"
+    htmlFor="currency-input-USD"
+  >
+    USD
+  </label>
+  <input
+    className="styledComponents__TradeInput-eaQxiw kFzhqY"
+    disabled={false}
+    id="currency-input-USD"
+    onChange={[Function]}
+    placeholder="USD"
+    readOnly={false}
+    value={1000}
+  />
+</div>
 `;
 
 exports[`Renders with zero balances 1`] = `
-<input
-  className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
-  disabled={false}
-  onChange={[Function]}
-  placeholder="USD"
-  readOnly={false}
-  value=""
-/>
+<div
+  className="styledComponents__TradeCurrencyPairContainer-euJuRu eFLMYC"
+>
+  <label
+    className="styledComponents__TradeLabel-izuSoq dTyLVH"
+    htmlFor="currency-input-USD"
+  >
+    USD
+  </label>
+  <input
+    className="styledComponents__TradeInput-eaQxiw kFzhqY"
+    disabled={false}
+    id="currency-input-USD"
+    onChange={[Function]}
+    placeholder="USD"
+    readOnly={false}
+    value=""
+  />
+</div>
 `;
 
 exports[`Renders without an onChange handler 1`] = `
-<input
-  className="TradeCurrencyPair__TradeInput-bFnQSV eEMErO"
-  disabled={true}
-  onChange={undefined}
-  placeholder="USD"
-  readOnly={true}
-  value={1000}
-/>
+<div
+  className="styledComponents__TradeCurrencyPairContainer-euJuRu eFLMYC"
+>
+  <label
+    className="styledComponents__TradeLabel-izuSoq dTyLVH"
+    htmlFor="currency-input-USD"
+  >
+    USD
+  </label>
+  <input
+    className="styledComponents__TradeInput-eaQxiw kFzhqY"
+    disabled={true}
+    id="currency-input-USD"
+    onChange={undefined}
+    placeholder="USD"
+    readOnly={true}
+    value={1000}
+  />
+</div>
 `;
